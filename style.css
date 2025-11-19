@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,6 +10,7 @@ html {
   font-size: 16pt;
 }
 
+/* LOGO */
 .nav-logo {
   object-fit: cover;
   width: 170px;
@@ -17,6 +18,7 @@ html {
   margin: 5px 10px 0;
 }
 
+/* NAV BAR */
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,6 +27,7 @@ nav {
   padding: 0;
 }
 
+/* NAV LINKS (DESKTOP DEFAULT) */
 .nav-links {
   display: flex;
   list-style: none;
@@ -46,4 +49,39 @@ nav {
   font-size: 16px;
   width: 100%;
   box-sizing: border-box;
+}
+
+/* MOBILE NAV */
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .mobile-menu {
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+    background: none;
+    border-left: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid black;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
 }
