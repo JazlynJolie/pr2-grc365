@@ -44,6 +44,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #000000;
+  background-color: #eceae8;
 }
 
 /* NAV LINKS DESKTOP */
@@ -66,6 +67,7 @@ nav {
   font-size: 16px;
   width: 100%;
   box-sizing: border-box;
+  background-color: #eceae8;
 }
 
 /* NAV MOBILE */
@@ -204,13 +206,20 @@ nav {
 }
 
 .quote h3 {
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
-  padding: 9vw 0;
+  padding: 9vw 50px;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
-  margin-left: 30px;
+  margin: 0 0 0 30px;
 } 
+
+.quote-2 {
+  font-size: 14px;
+  display: block;
+  margin: 20px 10px 0;
+  font-weight: 400;
+}
 
 /* QUOTE MOBILE */
 @media (max-width: 1050px) {
@@ -274,7 +283,7 @@ footer {
   width: 100vw;
   justify-content: space-between;
   border-top: 1px solid #000000;
-  background-color:
+  background-color: #eceae8;
 }
 
 .footer-about,
