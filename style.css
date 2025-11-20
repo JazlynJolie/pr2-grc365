@@ -10,6 +10,26 @@ html {
   font-size: 16pt;
 }
 
+h2, h3 {
+  font-family: "Domine", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+}
+  
+h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  letter-spacing: 13px;
+}
+
+p, a, input {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
 /* LOGO */
 .nav-logo {
   object-fit: cover;
@@ -87,7 +107,6 @@ nav {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +137,7 @@ nav {
 }
 
 .quebec-text {
-  font-size: 15px;
+  font-size: 18px;
   text-align: justify;
   padding: 80px 100px;
   border-right: 1px solid #000000; 
@@ -236,6 +255,7 @@ nav {
 }
 
 .backstory p {
+  font-size: 18px;
   text-align: justify;
   margin-bottom: 20px;
 }
@@ -285,9 +305,24 @@ footer {
 }
 
 footer a {
+  font-size: 18px;
   text-decoration: none;
   color: #000000;
   text-align: left;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer .footer-title {
+  font-family: "Domine", serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.copyright {
+  font-size: 15px;
 }
 
 /* FOOTER MOBILE */
