@@ -157,6 +157,8 @@ nav {
   .quebec img {
     width: 100%;
     max-width: 700px;
+    height: 100%;
+    max-height: 60vh;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     margin: auto;
@@ -245,13 +247,6 @@ nav {
     column-count: 1;
   }
 }
-
-
-
-
-
-
-
 
 /* FOOTER DESKTOP */
 footer {
