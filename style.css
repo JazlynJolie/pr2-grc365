@@ -191,6 +191,7 @@ nav {
   margin-left: 30px;
 } 
 
+/* QUOTE MOBILE */
 @media (max-width: 1050px) {
   .quote {
     gap: 20px;
@@ -217,5 +218,31 @@ nav {
     padding: 40px 70px 80px;
     margin: 0;
     border-top: none;
+  }
+}
+
+
+/* BACKSTORY DESKTOP */
+.backstory {
+  margin: 100px 150px;
+  column-count: 2;
+  column-gap: 60px;
+}
+
+.backstory h2 {
+  column-span: all;
+  margin-bottom: 30px;
+}
+
+.backstory p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* BACKSTORY MOBILE */
+@media (max-width: 900px) {
+  .backstory {
+    margin: 50px 20px;
+    column-count: 1;
   }
 }
