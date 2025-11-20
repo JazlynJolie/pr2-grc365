@@ -106,7 +106,6 @@ nav {
 
 /* DISPLAY */
 .display {
-  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -124,7 +123,6 @@ nav {
 }
 
 .display h1 {
-  position: relative;
   color: white;
   font-size: 13vw;
   text-align: center;
