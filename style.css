@@ -26,6 +26,7 @@ h1 {
 }
 
 p, a, input {
+  color: #5d5d5d;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
@@ -332,6 +333,7 @@ footer .footer-title {
 
 .copyright {
   font-size: 15px;
+  margin-top: 40px;
 }
 
 /* FOOTER MOBILE */
